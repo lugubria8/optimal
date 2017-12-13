@@ -12,10 +12,11 @@ function changeCat(){
 		'images/optipurp9.gif',
 		'images/optipurp11.gif',
 		'images/optipurp13.gif',
-		'images/optipurp15.gif'
+		'images/optipurp15.gif',
+		'images/optipurp17.gif'
 	];
   catIndex++;
-  if (catIndex >= 7){
+  if (catIndex >= 8){
   	catIndex = 0;
   }
   cat.src = list[catIndex];
@@ -31,9 +32,10 @@ function changeCati(){
 		'images/optipurp10.gif',
 		'images/optipurp12.gif',
 		'images/optipurp14.gif',
-		'images/optipurp16.gif'];
+		'images/optipurp16.gif',
+		'images/opitpurp18.gif'];
   catiIndex++;
-  if (catiIndex >= 7){
+  if (catiIndex >= 8){
   	catiIndex = 0;
   }
   cati.src = listi[catiIndex];
