@@ -6,9 +6,16 @@ var catiIndex = 0;
 function changeCat(){
 	var list = [
 		'images/optipurp1.gif',
-		'images/optipurp3.gif'];
+		'images/optipurp3.gif',
+		'images/optipurp5.gif',
+		'images/optipurp7.gif',
+		'images/optipurp9.gif',
+		'images/optipurp11.gif',
+		'images/optipurp13.gif',
+		'images/optipurp15.gif'
+	];
   catIndex++;
-  if (catIndex >= 1){
+  if (catIndex >= 7){
   	catIndex = 0;
   }
   cat.src = list[catIndex];
@@ -16,17 +23,23 @@ function changeCat(){
 }
 
 function changeCati(){
-	var list = [
+	var listi = [
 		'images/optipurp2.gif',
-		'images/optipurp4.gif'];
+		'images/optipurp4.gif',
+		'images/optipurp6.gif',
+		'images/optipurp8.gif',
+		'images/optipurp10.gif',
+		'images/optipurp12.gif',
+		'images/optipurp14.gif',
+		'images/optipurp16.gif'];
   catiIndex++;
-  if (catiIndex >= 1){
+  if (catiIndex >= 7){
   	catiIndex = 0;
   }
-  cati.src = list[catiIndex];
+  cati.src = listi[catiIndex];
 
 }
 
 
 cat.addEventListener( 'click', changeCat );
-// cati.addEventListener( 'click', changeCati );
+cati.addEventListener( 'click', changeCati );
